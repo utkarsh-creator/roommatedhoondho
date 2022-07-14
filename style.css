@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;800&display=swap');
+body{
+    margin:0 3%;
+    padding:0;
+    font-family:'Raleway',sans-serif;
+    box-sizing: border-box;
+    background-image: url("img.png");
+    background-position: center;
+    
+}
+
+.greenbox{
+    display: flexbox;
+    float: right;
+    margin-top: 2vh;
+    margin-left: 10vh;
+    margin-bottom: 10vh;
+    width: 57vh;
+    height: 100vh;
+    top: 1vh;
+
+
+    background: rgba(51, 220, 68, 0.1);
+    box-shadow: inset 39.3px -39.3px 39.3px rgba(24, 24, 24, 0.01), inset -39.3px 39.3px 39.3px rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(73.884px);
+    /* Note: backdrop-filter has minimal browser support */
+
+    border-radius: 7vh;
+}
+
+.greenbox h1{
+    display: flex;
+    width: 356px;
+    height: 9vh;
+    margin-left: 5vh;
+    top: 160px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5vh;
+    line-height: 10vh;
+
+
+    background: linear-gradient(180deg, #89AE37 0%, rgba(249, 72, 74, 0) 455.15%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
+}
+
+.para1{
+    display: flex;
+    width: 133px;
+    height: 22px;
+    margin-left: 3vh;
+    top: 35vh;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5vh;
+    line-height: 22px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+}
+
+.para2{
+    display: flex;
+width: 146px;
+height: 22px;
+margin-left: 3vh;
+top: 386px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 2.5vh;
+line-height: 22px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+
+
+.col-75 {
+    display: flex;
+    width: 80%;
+    height: 6vh;
+    margin-left: 3vh;
+    top: 289px;
+    border-color: rgba(51, 220, 68, 0.1);
+    background: #D9D9D9;
+    border-radius: 1.6vh;
+    text-align:center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.3vh;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #757575;
+
+}
+
+  .container{
+      
+      margin-left: 2.5vh;
+  }
+  .container input {
+    opacity: 1;
+    cursor: pointer;
+    height: 1vh;
+    
+  }
+
+  .checkmark {
+    margin-top: 20vh;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+
+.image{
+    width: 100%;
+    max-width: 20vh;
+    height: auto;
+    margin: auto;
+    margin-top: 47vh;
+    margin-left: -6vh;
+    float: left;
+    border: rgba(51, 220, 68, 0.1);
+    border-width: 2000px;
+
+
+    
+    
+}
+.responsive {
+    display: flex;
+  max-width: 200vh;
+  height: auto;
+}
+
+.enterpassword{
+    margin-top: 2vh;
+    margin-left: 3vh;
+    width: 2vh;
+height: 3vh;
+top: 493px;
+
+border-radius: 6px;
+background: #D9D9D9;
+
+}
+
+.password{
+    display: flex;
+
+    width:auto;
+    height: 2px;
+    margin-top: -3vh;
+    margin-left: 6vh;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2vh;
+    line-height: 2vh;
+    /* identical to box height */
+    
+    
+    color: #EFEFEF;
+    
+    mix-blend-mode: normal;
+}
+
+.sign-in{
+display: flex;
+width: 47vh;
+height: 8vh;
+margin-left: 3vh;
+margin-top: 2vh;
+cursor: pointer;
+
+background: linear-gradient(180deg, #ABDB3C 0%, rgba(100, 100, 102, 0) 278.95%);
+border-radius: 2vh;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 3.4vh;
+line-height: 4vh;
+padding-left: 18vh;
+padding-top: 1.5vh;
+color: #FFFFFF;
+
+
+}
+
+/* On mouse-over */
+.sign-in:hover {background: #D9D9D9;}
+
+.greenbox h3{
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 2.6vh;
+line-height: 160%;
+/* or 30px */
+
+text-align: center;
+
+
+color: #FFFFFF;
+
+}
+.box-2{
+    box-sizing: border-box;
+width: 47vh;
+margin-left: 3vh;
+height: 8.1vh;
+left: 980px;
+top: 716px;
+
+border: 2px solid #AADB41;
+border-radius: 12px;
+}
+.box-2 h3{
+    margin-right: 6vh;
+padding-top: -2vh;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 2.8vh;
+line-height: 2vh;
+float: right;
+
+/* or 34px */
+
+
+color: #FFFFFF;
+
+}
+
+.box-2 img{
+width: 5vh;
+height: 5vh;
+margin-left: 10vh;
+margin-top: 1vh;
+}
+
+.dontacc{
+margin-left: 5vh;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 2vh;
+line-height: 7vh;
+/* identical to box height, or 30px */
+text-decoration: none;
+display: inline-block;
+color: #FFFFFF;
+}
+
+
+/* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE */
+/* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE */
+/* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE */
+/* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE */
+/* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE */
+/* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE */
+/* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE */
+/* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE */
+/* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE *//* SIGNUP PAGE */
+
+.line1{
+    margin-top: 6vh;
+    margin-left: 10vh;
+    width: 13vh;
+    height: 1px;
+    border: 1px solid rgba(168, 168, 168, 0.8);
+    
+}
+
+.line2{
+    margin-top: -0.14vh;
+    margin-left: 17vh;
+    width: 13vh;
+    height: 1px;
+
+    border: 1px solid rgba(168, 168, 168, 0.8);
+}
+.line2 p{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 2.3vh;
+margin-top: -1.4vh;
+margin-left: -3vh;
+/* identical to box height */
+
+
+color: rgba(166, 165, 165, 0.8);
+
+mix-blend-mode: normal;
+}
+
+
+
+
+
+
+  
+ 
