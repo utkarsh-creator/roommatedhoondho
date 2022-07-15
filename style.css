@@ -52,27 +52,8 @@ body {
   background-clip: text;
 }
 
-.para1 {
-  display: flex;
-  width: 133px;
-  height: 22px;
+.para1,.para2 {
   margin-left: 3vh;
-  top: 35vh;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 2.5vh;
-  line-height: 22px;
-  /* identical to box height */
-  color: #ffffff;
-}
-
-.para2 {
-  display: flex;
-  width: 146px;
-  height: 22px;
-  margin-left: 3vh;
-  top: 386px;
-  font-style: normal;
   font-weight: 600;
   font-size: 2.5vh;
   line-height: 22px;
