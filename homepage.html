@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Roommate Dhoondo</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+        <header>
+            <div class="nav">
+                <nav>
+                    <img src="./r_logo_nbg.png" alt="" class="logo">
+                    <div class="user_info">
+                        <p>Hello,User</p>
+                        <div class="usericon">
+                            <i class="fa fa-user" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <h1>Your search for roommates ends here !</h1>
+        </header>
+
+        <main>
+            <h1>Search for roommates</h1>
+            <div class="search">
+                <form action="" autocomplete="off">
+                    <input type="text" name="search_query" id="search_bar" placeholder="Search interests,clubs,etc">
+                    <select name="bedded" id="">
+                        <option value="2">2 bedded</option>
+                        <option value="3">3 bedded</option>
+                        <option value="4">4 bedded</option>
+                        <option value="5">5 bedded</option>
+                        <option value="6">6 bedded</option>
+                        <option value="8">8 bedded</option>
+                    </select>
+                    <select name="branch" id="">
+                        <option value="it">IT</option>
+                        <option value="cs">CSE</option>
+                        <option value="electrical">Electrical</option>
+                        <option value="civil">Civil</option>
+                        <option value="mechanical">Mechanical</option>
+                        <option value="chemical">Chemical</option>
+                    </select>
+                    <div class="ac_nac">
+                        <div class="one">
+                            <input type="radio" name="ac" id="ac">
+                            <label for="ac">AC</label>
+                        </div>
+                        <div class="two">
+                            <input type="radio" name="ac" id="nonac">
+                            <label for="nonac">NON-AC</label>
+                        </div>
+                    </div>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+        </main>
+
+</body>
+</html>
